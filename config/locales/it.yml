@@ -13,12 +13,7 @@
 # Dubbi:
 #   - timeout → tempo di attesa ?
 #
-#   - 490 → confermare corretta traduzione
-#   - 497-498 → confermare corretta traduzione
-#   - 511 → funzione sconosciuta, da confermare corretta traduzione
-#   - 527 → da confermare corretto funzionamento
-#   - 560 → tradurre `memo` come "promemoria" o "messaggio" (come hanno fatto i francesi?)
-#   - 581 → tradurre la licenza?
+#   - 604 → funzione sconosciuta, da confermare corretta traduzione
 
 # Da fare:
 #   - 591 → verificare le variabili e tradurre adeguatamente
@@ -92,7 +87,7 @@ it:
       nonmedia: "Devi inserire un'etichetta diversa da PDF o video"
       alreadysubmitted: "è già stato inserito negli ultimi %{days} giorni"
     vote:
-      offtopicvote: "Off-topic"
+      offtopicvote: "Fuori tema"
       incorrectvote: "Non corretto"
       metoovote: "Anche io"
       trollvote: "Troll"
@@ -416,17 +411,17 @@ it:
     twofa_enroll:
       title: "Autenticazione a due fattori"
       backtosettings: "Ritorna alle impostazioni"
-      enrollmenttimeout: "Timeout esaurito"
+      enrollmenttimeout: "Tempo scaduto"
       scanqrcode: "Scannerizza il QR code sotto o clicca il link per aprirlo nell'applicazione <a href=\"https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm\" target=\"_blank\">TOTP</a> che preferisci :"
       registring: "Una volta completato il processo di autenticazione TOTP, passa alla schermata successiva per verificare e attivare l'autenticazione a due fattori sul tuo account."
       verifyenable: "Verifica e attiva"
     twofa_update:
-      enrollmenttimeout: "Timeout esaurito"
+      enrollmenttimeout: "Tempo scaduto"
       2fahasbeenenabled: "L'autenticazione a due fattori è stata attivata sul tuo account"
       totpinvalid: "Il tuo codice TOTP non è valido, verifica il codice assegnato attualmente alla tua applicazione TOTP"
     twofa_verify:
       title: "Autenticazione a due fattori"
-      enrollmenttimeout: "Timeout esaurito"
+      enrollmenttimeout: "Tempo scaduto"
       enablecode: "Per attivare l'autenticazione 2FA sul tuo account utilizzando il tuo nuovo codice TOTP, inserisci il codice a 6 cifre dalla tua tua applicazione TOTP di riferimento:"
       verifyenable: "Verifica e attiva"
     update:
@@ -495,8 +490,8 @@ it:
       justnow: "in questo istante"
       edit: "modifica"
       delete: "rimuovere"
-      confirmundelete: "Sei sicuro di voler rimettere questo articolo"
-      undelete: "rimettere"
+      confirmundelete: "Sei sicuro di voler ripristinare questo articolo"
+      undelete: "ripristinare"
       confirmdelete: "Sei sicuro di voler rimuovere questo articolo?"
       suggest: "suggerire"
       unflag: "rimuovere la segnalazione"
@@ -567,7 +562,7 @@ it:
 # data for users/invitationform which is a partial view
   invitationtext: "Gli inviti sono illimitati, ma le persone da te invitate saranno associate al tuo profilo nell'<a href=\"/u\">albero degli utenti</a> e tu sarai responsabile per la loro condotta qualora queste causassero problemi. Per favore esercita accortezza nell'invitare persone che non conosci personalmente."
   emailaddress: "Indirizzo e-mail:"
-  memouser: "Message à l'utilisateur :"
+  memouser: "Notifica all'utente :"
   sendinvitation: "Manda un invito"
   controllers:
     comments_controller:
